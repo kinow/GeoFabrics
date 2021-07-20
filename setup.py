@@ -50,6 +50,7 @@ setuptools.setup(
                       'boto3>=1.17'],
     extras_require={
         'dev': ['check-manifest'],
+        'test': ['geopandas', 'rtree']
     },
 
 )
